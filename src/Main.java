@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Стараюсь понять как это работает");
-    }
     boolean BooleanVariable = true;
     byte byteVariable = 127;
 
@@ -15,10 +14,6 @@ public class Main {
     double doubleVariable = 31231231.67d;
 
     Scanner scanner = new Scanner(System.in);
-    //System.out.println("Name");
-    //System.out.println(felix+3);
-    //String userName = myObj.nextLine();
-    //System.out.println("Username is: " + userName");
     String vuvidNaEkran = "Veddit 1 chuslo";
     System.out.println(vuvidNaEkran);
     int a = scanner.nextInt();
@@ -26,4 +21,5 @@ public class Main {
     int b = scanner.nextInt();
     System.out.println("Summa = ");
     System.out.println(a+b);
+    }
 }
