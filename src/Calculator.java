@@ -25,7 +25,7 @@ public class Calculator {
     }
 
     public static char getOperation(){
-        System.out.println("OPERATION:");
+        System.out.println("OPERATION +,-,*,:");
         char operation;
         if(scanner.hasNext()){
             operation = scanner.next().charAt(0);
